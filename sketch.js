@@ -107,7 +107,7 @@ function draw()
   rope.show();
   rope2.show();
 
-  if(collide(fruit,bunny,90)==true)
+  if(collide(fruit,bunny,100)==true)
   {
    remove_rope();
    bubble.visible = false;
